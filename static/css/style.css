@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+}
+.intro-img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+
+}
