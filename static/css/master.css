@@ -4,6 +4,9 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+ html {
+  scroll-behavior: smooth;}
+
 .fr-clearfix::after {
   clear: both;
   display: block;

@@ -7,12 +7,6 @@
   margin: 1px auto 0;
 }
 
-.u-section-1 .u-image-1 {
-  background-image: url("/images/original-40.jpg");
-  background-position: 50% 50%;
-  min-height: 521px;
-}
-
 .u-section-1 .u-container-layout-1 {
   padding: 30px 60px;
 }
@@ -179,11 +173,7 @@
   margin: 20px 0 0;
 }
 
-.u-section-3 .u-image-1 {
-  background-image: url("/images/original1.jpg");
-  background-position: 50% 50%;
-  min-height: 576px;
-}
+
 
 .u-section-3 .u-container-layout-2 {
   padding: 30px 60px;

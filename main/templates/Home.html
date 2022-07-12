@@ -7,10 +7,10 @@
     <meta name="keywords" content="Auto Repair Services Mechanic Car Vehicle">
     <meta name="description" content="We are a Complete Auto Repair and Service Shop in Nashville, TN. We will inspect your vehicle and provide all the necessary car repairs needed to get you back on the road as quickly as possible.">
     <title>Automotive Solutions</title>
-    <link rel="stylesheet" href="{% static 'css/nicepage.css' %}" media="screen">
+    <link rel="stylesheet" href="{% static 'css/master.css' %}" media="screen">
 <link rel="stylesheet" href="{% static 'css/Home.css' %}" media="screen">
     <script class="u-script" type="text/javascript" src="{% static 'js/jquery-1.9.1.min.js' %}" defer=""></script>
-    <script class="u-script" type="text/javascript" src="{% static 'js/nicepage.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/master.js' %}" defer=""></script>
     <meta name="generator" content="Nicepage 4.14.3, nicepage.com">
     <meta property="og:title" content="Automotive Solutions">
     <meta property="og:description" content="We are a Complete Auto Repair and Service Shop in Nashville, TN. We will inspect your vehicle and provide all the necessary car repairs needed to get you back on the road as quickly as possible.">
@@ -58,10 +58,10 @@
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white">Image Gallery</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="/About-Us.html" style="padding: 10px;">About Us</a>
-</li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="/Contact-Us.html" style="padding: 10px;">Contact Us</a>
-</li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="/Schedule-Appointment.html" style="padding: 10px;">Schedule Appointment</a>
-</li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="/Home.html" style="padding: 10px;">Home</a>
+</li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="{% url 'about-us' %}" style="padding: 10px;">About Us</a>
+</li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="{% url 'contact-us' %}" style="padding: 10px;">Contact Us</a>
+</li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="{% url 'schedule-appointment' %}" style="padding: 10px;">Schedule Appointment</a>
+</li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="{% url 'home' %}" style="padding: 10px;">Home</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
@@ -76,10 +76,10 @@
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link">Image Gallery</a>
 </li></ul>
 </div>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/About-Us.html">About Us</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Contact-Us.html">Contact Us</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Schedule-Appointment.html">Schedule Appointment</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Home.html">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'about-us' %}">About Us</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'contact-us' %}">Contact Us</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'schedule-appointment' %}">Schedule Appointment</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'home' %}">Home</a>
 </li></ul>
               </div>
             </div>
@@ -101,7 +101,7 @@
                 <h1 class="u-text u-text-default u-text-1">Automotive Solutions</h1>
                 <p class="u-align-center-sm u-align-center-xs u-large-text u-text u-text-variant u-text-2"> We are a Complete Auto Repair and Service Shop in Nashville, TN. We will inspect your vehicle and provide all the necessary car repairs needed to get you back on the road as quickly as possible. We work on all cars and trucks both foreign and domestic.</p>
                 <a href="tel:(615) 782-6700" class="u-btn u-button-style u-palette-1-base u-btn-1">Call (615) 782-6700</a>
-                <a href="https://nicepage.me" class="u-border-2 u-border-white u-btn u-button-style u-hover-white u-none u-text-hover-black u-btn-2">Our services</a>
+                <a href="#services" class="u-border-2 u-border-white u-btn u-button-style u-hover-white u-none u-text-hover-black u-btn-2">Our services</a>
               </div>
             </div>
           </div>
@@ -151,14 +151,14 @@
               <div class="u-container-layout u-valign-middle u-container-layout-2">
                 <p class="u-text u-text-3"> We're a family-owned company and we're an accredited member of the Better Business Bureau with old-fashioned values...like <span style="text-decoration: underline !important;">honesty</span> and <span style="text-decoration: underline !important;">integrity</span>. Our highly qualified and capable mechanics care about you and your vehicle. Call or email us to schedule an appointment. 
                 </p>
-                <a href="" class="u-border-1 u-border-black u-border-hover-palette-2-base u-btn u-button-style u-none u-text-body-color u-text-hover-palette-2-base u-btn-1">WE DO IT RIGHT!</a>
+                <a href="#" class="u-border-1 u-border-black u-border-hover-palette-2-base u-btn u-button-style u-none u-text-body-color u-text-hover-palette-2-base u-btn-1">WE DO IT RIGHT!</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="u-align-center u-clearfix u-section-5" id="sec-db1d">
+    <section class="u-align-center u-clearfix u-section-5" id="services">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default-lg u-text-default-md u-text-default-xl u-text-1">Call us for...</h2>
         <div class="u-expanded-width u-list u-list-1">
