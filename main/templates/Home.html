@@ -1,3 +1,5 @@
+{% load static %}
+{% block content %}
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="pt"><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -5,34 +7,40 @@
     <meta name="keywords" content="Auto Repair Services Mechanic Car Vehicle">
     <meta name="description" content="We are a Complete Auto Repair and Service Shop in Nashville, TN. We will inspect your vehicle and provide all the necessary car repairs needed to get you back on the road as quickly as possible.">
     <title>Automotive Solutions</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Home.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery-1.9.1.min.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <link rel="stylesheet" href="{% static 'css/nicepage.css' %}" media="screen">
+<link rel="stylesheet" href="{% static 'css/Home.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'js/jquery-1.9.1.min.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/nicepage.js' %}" defer=""></script>
     <meta name="generator" content="Nicepage 4.14.3, nicepage.com">
     <meta property="og:title" content="Automotive Solutions">
     <meta property="og:description" content="We are a Complete Auto Repair and Service Shop in Nashville, TN. We will inspect your vehicle and provide all the necessary car repairs needed to get you back on the road as quickly as possible.">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Automotive Solutions",
-		"logo": "//ccapp.nicepage.com/b1aafe7bcbc31301c05ec52330da8f331d18e720/images/default-logo.png"
-}</script>
+    <style>
+      .u-section-1 .u-image-1 {
+        min-height: 692px;
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("{% static 'images/1603871867_Cover-Image.webp' %}");
+        background-position: 50% 50%;
+      }
+      .u-section-2 .u-image-1 {
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("{% static 'images/SemTtulo-1.jpg' %}");
+        min-height: 463px;
+        background-position: 50% 50%;
+      }
+      .u-section-4 .u-image-1 {
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("{% static 'images/tires.jpg' %}");
+        background-position: 50% 50%;
+        min-height: 462px;
+      }
+      .u-section-8 .u-image-1 {
+        min-height: 553px;
+        background-image: url("{% static 'images/original.jpg' %}");
+        background-position: 50% 50%;
+      }
+    </style>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:type" content="website">
   </head>
-  <body data-home-page="https://website2386491.nicepage.io/Home.html?version=54ae8fa0-d001-49c3-bfab-d8ead3e1d1b7" data-home-page-title="Home" class="u-body u-xl-mode" data-lang="pt"><header class="u-black u-clearfix u-header u-header" id="sec-7668" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
+  <body class="u-body u-xl-mode" data-lang="pt"><header class="u-black u-clearfix u-header u-header" id="sec-7668" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
         <nav class="u-align-center u-dropdown-icon u-menu u-menu-dropdown u-offcanvas u-offcanvas-shift u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
             <a class="u-button-style u-custom-active-color u-custom-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-text-shadow u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-white" href="#" style="">
@@ -79,7 +87,7 @@
           </div>
         </nav>
         <a href="#" class="u-image u-logo u-image-1">
-          <img src="//ccapp.nicepage.com/b1aafe7bcbc31301c05ec52330da8f331d18e720/images/default-logo.png" class="u-logo-image u-logo-image-1">
+          <img src="/ccapp.nicepage.com/b1aafe7bcbc31301c05ec52330da8f331d18e720/images/default-logo.png" class="u-logo-image u-logo-image-1">
         </a>
         <a href="tel:(615) 782-6700" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1"> (615) 782-6700</a>
       </div></header>
@@ -89,6 +97,7 @@
           <div class="u-layout-row" style="">
             <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-shading u-size-60 u-size-xs-60 u-image-1" src="" data-image-width="2500" data-image-height="1500">
               <div class="u-container-layout u-valign-middle u-container-layout-1" src="">
+                <img>
                 <h1 class="u-text u-text-default u-text-1">Automotive Solutions</h1>
                 <p class="u-align-center-sm u-align-center-xs u-large-text u-text u-text-variant u-text-2"> We are a Complete Auto Repair and Service Shop in Nashville, TN. We will inspect your vehicle and provide all the necessary car repairs needed to get you back on the road as quickly as possible. We work on all cars and trucks both foreign and domestic.</p>
                 <a href="tel:(615) 782-6700" class="u-btn u-button-style u-palette-1-base u-btn-1">Call (615) 782-6700</a>
@@ -104,7 +113,7 @@
         <div class="u-layout" style="">
           <div class="u-layout-row" style="">
             <div class="u-align-center u-container-style u-custom-color-2 u-layout-cell u-left-cell u-shape-rectangle u-size-30 u-size-xs-60 u-layout-cell-1" src="">
-              <div class="u-container-layout u-valign-middle-sm u-valign-middle-xs u-container-layout-1"><span class="u-file-icon u-icon u-icon-1"><img src="/images/639365.png" alt=""></span>
+              <div class="u-container-layout u-valign-middle-sm u-valign-middle-xs u-container-layout-1"><span class="u-file-icon u-icon u-icon-1"><img src="{% static 'images/639365.png' %}" alt=""></span>
                 <h2 class="u-text u-text-1"> Saving you money however we can</h2>
                 <p class="u-text u-text-2"> For all your Nashville auto repair shop needs, this is a one-stop shop...we do it all! From the small jobs like Car AC repairs, Brakes, Oil Changes, Coolant Flushes and Tune ups to the big jobs like Transmission rebuilds and Engine replacement.</p>
               </div>
@@ -155,7 +164,7 @@
         <div class="u-expanded-width u-list u-list-1">
           <div class="u-repeater u-repeater-1">
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-1"><img src="/images/31823.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-1"><img src="{% static 'images/31823.png' %}" alt=""></span>
                 <h3 class="u-align-center u-text u-text-2">Oil Changes using</h3>
                 <p class="u-align-center u-text u-text-3">Synthetic blend or Full Synthetic oil.</p>
               </div>
@@ -170,25 +179,25 @@
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-3"><img src="/images/271945.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-3"><img src="{% static 'images/271945.png' %}" alt=""></span>
                 <h3 class="u-align-center u-text u-text-6">Tire Rotation</h3>
                 <p class="u-align-center u-text u-text-7">This should be done every other oil change.</p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-4"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-4"><img src="/images/1593815.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-4"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-4"><img src="{% static 'images/1593815.png' %}" alt=""></span>
                 <h3 class="u-align-center u-text u-text-8"> Brakes and Brake Repair</h3>
                 <p class="u-align-center u-text u-text-9">Ceramic pads are recommended for most passenger cars.</p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-5"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-5"><img src="/images/2086009.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-5"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-5"><img src="{% static 'images/2086009.png' %}" alt=""></span>
                 <h3 class="u-align-center u-text u-text-10"> Transmission</h3>
                 <p class="u-align-center u-text u-text-11">Rebuild or Replacement, Repair and Service.</p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-6"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-6"><img src="/images/2694422.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-6"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-6"><img src="{% static 'images/2694422.png' %}" alt=""></span>
                 <h3 class="u-align-center u-text u-text-12"> Scheduled Routine Maintenance</h3>
                 <p class="u-align-center u-text u-text-13"> What and when to do the recommended services varies from vehicle to vehicle...we check the manufactures guidelines and let you know when it's time for service.</p>
               </div>
@@ -202,55 +211,55 @@
         <div class="u-expanded-width u-list u-list-1">
           <div class="u-repeater u-repeater-1">
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-1"><img src="/images/2061866.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-1"><img src="{% static 'images/2061866.png' %}" alt=""></span>
                 <h3 class="u-text u-text-1">Engine</h3>
                 <p class="u-text u-text-2">Repair, Replacement and Rebuild.</p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-2"><img src="/images/3902999.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-2"><img src="{% static 'images/3902999.png' %}" alt=""></span>
                 <h3 class="u-text u-text-3">Suspension and Steering System</h3>
                 <p class="u-text u-text-4">Repair and Replacement.</p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-3"><img src="/images/567255.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-3"><img src="{% static 'images/567255.png' %}" alt=""></span>
                 <h3 class="u-text u-text-5"> Car AC Repairs &amp; Service</h3>
                 <p class="u-text u-text-6"> Not just for hot summers, the defrost will not work properly without a functioning AC system.</p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-4"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-4"><img src="/images/120819.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-4"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-4"><img src="{% static 'images/120819.png' %}" alt=""></span>
                 <h3 class="u-text u-text-7"> Cooling System Service</h3>
                 <p class="u-text u-text-8"> Flush &amp; refill is recommended 100,000 miles or 5 years on ALL vehicles.</p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-5"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-5"><img src="/images/1087927.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-5"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-5"><img src="{% static 'images/1087927.png' %}" alt=""></span>
                 <h3 class="u-text u-text-9"> Check Engine Light</h3>
                 <p class="u-text u-text-10"> Computer Diagnostic Testing.</p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-6"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-6"><img src="/images/2385088.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-6"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-6"><img src="{% static 'images/2385088.png' %}" alt=""></span>
                 <h3 class="u-text u-text-11"> Fuel Injection Service</h3>
                 <p class="u-text u-text-12"> Newer vehicles now are equipped with a GDI fuel delivery system. Fuel additives and upper engine cleaning services are critical on these vehicles.</p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-7"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-7"><img src="/images/1394440.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-7"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-7"><img src="{% static 'images/1394440.png' %}" alt=""></span>
                 <h3 class="u-text u-text-13">T​iming Belts and Accessory Belt</h3>
                 <p class="u-text u-text-14"> The belts you see and that one belt you can't see (the timing belt). Not all cars have a timing belt...but if yours does, get it replaced when recommended or the potential of major engine damage is possible.</p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-8"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-8"><img src="/images/3903025.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-8"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-8"><img src="{% static 'images/3903025.png' %}" alt=""></span>
                 <h3 class="u-text u-text-15">Clutch</h3>
                 <p class="u-text u-text-16"> Repair, Replacement and Upgrade.</p>
               </div>
             </div>
             <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-9"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-9"><img src="/images/1677064.png" alt=""></span>
+              <div class="u-container-layout u-similar-container u-container-layout-9"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-9"><img src="{% static 'images/1677064.png' %}" alt=""></span>
                 <h3 class="u-text u-text-17"> Radiator &amp; Water Pump</h3>
                 <p class="u-text u-text-18"> Repair and Replacement.</p>
               </div>
@@ -265,7 +274,7 @@
           <div class="u-layout-row">
             <div class="u-container-style u-custom-color-2 u-layout-cell u-left-cell u-size-28 u-layout-cell-1">
               <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs">
-                <img class="u-align-left u-image u-image-1" data-image-width="526" data-image-height="335" src="/images/original.png">
+                <img class="u-align-left u-image u-image-1" data-image-width="526" data-image-height="335" src="{% static 'images/original.png' %}">
               </div>
             </div>
             <div class="u-align-left u-container-style u-custom-color-2 u-layout-cell u-right-cell u-size-32 u-layout-cell-2">
@@ -345,3 +354,4 @@
     </section>
   
 </body></html>
+{% endblock %}
