@@ -1,3 +1,5 @@
+{% load static %}
+{% block content %}
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="pt"><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -5,14 +7,17 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Contact-Us.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery-1.9.1.min.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <link rel="stylesheet" href="{% static 'css/master.css' %}" media="screen">
+<link rel="stylesheet" href="{% static 'css/Contact-Us.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'js/jquery-1.9.1.min.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/master.js' %}" defer=""></script>
     <meta name="generator" content="Nicepage 4.14.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <style>
-
+       .u-section-1 {
+          background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("{% static 'images/fusca.jpg' %}");
+          background-position: 50% 50%;
+        }
     </style>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Contact Us">
@@ -77,7 +82,7 @@
         </p>
         <a href="tel:(615) 782-6700" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">(​615) 782-6700</a>
         <a href="mailto:automotivesolutions2@comcast.net" class="u-border-none u-btn u-button-style u-hover-grey-10 u-text-palette-1-base u-white u-btn-2">Email</a>
-        <a href="/Schedule-Appointment.html" data-page-id="2417476" class="u-border-2 u-border-white u-btn u-button-style u-hover-white u-none u-text-hover-black u-btn-3"> Schedule Appointment</a>
+        <a href="{% url 'schedule-appointment' %}" data-page-id="2417476" class="u-border-2 u-border-white u-btn u-button-style u-hover-white u-none u-text-hover-black u-btn-3"> Schedule Appointment</a>
       </div>
     </section>
     
@@ -98,3 +103,4 @@
     </section>
   
 </body></html>
+{% endblock %}
