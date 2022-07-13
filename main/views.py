@@ -21,3 +21,9 @@ def student_special(request):
 
 def business_rates(request):
     return render(request, 'Business-Rates.html', {})
+
+def oil_change_options(request):
+    return render(request, 'Oil-Change-Options.html', {})
+
+def payment_options(request):
+    return render(request, 'Payment-Options.html', {})

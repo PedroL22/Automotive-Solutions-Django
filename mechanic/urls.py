@@ -26,4 +26,6 @@ urlpatterns = [
     path('towing-service', views.towing_service, name='towing-service'),
     path('student-special', views.student_special, name='student-special'),
     path('business-rates', views.business_rates, name='business-rates'),
+    path('oil-change-options', views.oil_change_options, name='oil-change-options'),
+    path('payment-options', views.payment_options, name='payment-options'),
 ]
