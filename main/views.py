@@ -27,3 +27,6 @@ def oil_change_options(request):
 
 def payment_options(request):
     return render(request, 'Payment-Options.html', {})
+
+def image_gallery(request):
+    return render(request, 'Image-Gallery.html', {})

@@ -28,4 +28,5 @@ urlpatterns = [
     path('business-rates', views.business_rates, name='business-rates'),
     path('oil-change-options', views.oil_change_options, name='oil-change-options'),
     path('payment-options', views.payment_options, name='payment-options'),
+    path('image-gallery', views.image_gallery, name='image-gallery'),
 ]

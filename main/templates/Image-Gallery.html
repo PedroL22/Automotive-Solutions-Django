@@ -1,0 +1,268 @@
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="pt"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="{% static 'css/master.css' %}" media="screen">
+<link rel="stylesheet" href="{% static 'css/Image-Gallery.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'js/jquery-1.9.1.min.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/master.js' %}" defer=""></script>
+    <meta name="generator" content="Nicepage 4.14.6, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <style>
+      
+    </style>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Image Gallery">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body u-xl-mode" data-lang="pt"><header class="u-black u-clearfix u-header u-header" id="sec-7668" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
+    {% include 'navbar.html' %}
+    <section class="u-align-center u-clearfix u-section-1" id="sec-52fd">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1"> Image Gallery</h2>
+        <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-show-text-always u-gallery-1">
+          <div class="u-gallery-inner u-gallery-inner-1">
+            <div class="u-effect-hover-zoom u-gallery-item">
+              <div class="u-back-slide" data-image-width="1600" data-image-height="900">
+                <img class="u-back-image u-expanded" src="{% static 'images/1.jpg' %}">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-1">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item">
+              <div class="u-back-slide" data-image-width="1440" data-image-height="1080">
+                <img class="u-back-image u-expanded" src="{% static 'images/2.jpg' %}" alt="Trucks or cars...we work on them all!">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-2">
+                <h3 class="u-gallery-heading">Trucks or cars...we work on them all!</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item">
+              <div class="u-back-slide" data-image-width="1440" data-image-height="1080">
+                <img class="u-back-image u-expanded" src="{% static 'images/3.jpg' %}" alt="Inside the pits">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-3">
+                <h3 class="u-gallery-heading">Inside the pits</h3>
+                <p class="u-gallery-text">3 bays all equipped with lifts to service cars in the shop, all the tools necessary to service most makes and models from any year.</p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item">
+              <div class="u-back-slide" data-image-width="1440" data-image-height="1080">
+                <img class="u-back-image u-expanded" src="{% static 'images/4.jpg' %}" alt="Service Area">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-4">
+                <h3 class="u-gallery-heading">Service Area</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item">
+              <div class="u-back-slide" data-image-width="1600" data-image-height="900">
+                <img class="u-back-image u-expanded" src="{% static 'images/5.jpg' %}">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-5">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item">
+              <div class="u-back-slide" data-image-width="816" data-image-height="460">
+                <img class="u-back-image u-expanded" src="{% static 'images/6.jpg' %}" alt="Race Day">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-6">
+                <h3 class="u-gallery-heading">Race Day</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item" data-image-width="1600" data-image-height="900">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="{% static 'images/7.jpg' %}" alt="Race Day, new wrap">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-7">
+                <h3 class="u-gallery-heading">Race Day, new wrap</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item" data-image-width="1600" data-image-height="900">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="{% static 'images/8.jpg' %}" alt="Another day, another race">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-8">
+                <h3 class="u-gallery-heading">Another day, another race</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item" data-image-width="324" data-image-height="184">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="{% static 'images/9.jpg' %}" alt="Bryan&amp;apos;s drift car before he met the wall in Bowling Green">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-9">
+                <h3 class="u-gallery-heading">Bryan's drift car before he met the wall in Bowling Green</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item" data-image-width="1024" data-image-height="683">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="{% static 'images/10.jpg' %}" alt="Bryan in action!">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-10">
+                <h3 class="u-gallery-heading">Bryan in action!</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item" data-image-width="1000" data-image-height="667">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="{% static 'images/11.jpg' %}" alt="Bryan in action part 2! With some of his buddies on the track">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-11">
+                <h3 class="u-gallery-heading">Bryan in action part 2! With some of his buddies on the track</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item" data-image-width="544" data-image-height="304">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="{% static 'images/12.jpg' %}" alt="Bryan&amp;apos;s Drift car before the transformation">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-12">
+                <h3 class="u-gallery-heading">Bryan's Drift car before the transformation</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item" data-image-width="544" data-image-height="304">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="{% static 'images/13.jpg' %}" alt="The after image...this is actually the same car! I&amp;apos;m not lying...Next step is to the Wrap Master for all the logos and art work.">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-13">
+                <h3 class="u-gallery-heading">The after image...this is actually the same car! I'm not lying...Next step is to the Wrap Master for all the logos and art work.</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item" data-image-width="408" data-image-height="230">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="{% static 'images/14.jpg' %}" alt="Hooman...a little fender bender won&amp;apos;t slow him down. He&amp;apos;s only &amp;quot;Hooman&amp;quot;">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-14">
+                <h3 class="u-gallery-heading">Hooman...a little fender bender won't slow him down. He's only "Hooman"</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item" data-image-width="1600" data-image-height="902">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="{% static 'images/15.jpg' %}" alt="Staged and ready to drift. Tandem drift competition in Huntsville, AL">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-15">
+                <h3 class="u-gallery-heading">Staged and ready to drift. Tandem drift competition in Huntsville, AL</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-hover-zoom u-gallery-item" data-image-width="928" data-image-height="528">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="{% static 'images/16.jpg' %}" alt="Head to head....the Bryan vs. the Bunny car. It was close but in the end the LS motor was too much.">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-16">
+                <h3 class="u-gallery-heading">Head to head....the Bryan vs. the Bunny car. It was close but in the end the LS motor was too much.</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-2" id="sec-a136">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-carousel u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-gallery u-gallery-slider u-layout-carousel u-lightbox u-no-transition u-show-text-always u-gallery-1" id="carousel-d2d5" data-interval="5000" data-u-ride="carousel">
+          <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+            <li data-u-target="#carousel-d2d5" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-d2d5" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-d2d5" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-d2d5" data-u-slide-to="3" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+          </ol>
+          <div class="u-carousel-inner u-gallery-inner" role="listbox">
+            <div class="u-active u-carousel-item u-effect-hover-zoom u-gallery-item u-carousel-item-1">
+              <div class="u-back-slide" data-image-width="480" data-image-height="270">
+                <img class="u-back-image u-expanded" src="{% static 'images/17.jpg' %}">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-1">
+                <h3 class="u-gallery-heading">Our friends...Darling Parade. THEY'RE AWESOME!! Here they are performing at The Rutledge downtown Nashville.</h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-effect-hover-zoom u-gallery-item u-carousel-item-2">
+              <div class="u-back-slide" data-image-width="480" data-image-height="270">
+                <img class="u-back-image u-expanded" src="{% static 'images/18.jpg' %}">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-2">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-effect-hover-zoom u-gallery-item u-carousel-item-3" data-image-width="480" data-image-height="270">
+              <div class="u-back-slide" data-image-width="480" data-image-height="270">
+                <img class="u-back-image u-expanded" src="{% static 'images/19.jpg' %}">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-3">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+              <style data-mode="XL" data-visited="true"></style>
+              <style data-mode="LG" data-visited="true"></style>
+              <style data-mode="MD" data-visited="true"></style>
+              <style data-mode="SM" data-visited="true"></style>
+              <style data-mode="XS" data-visited="true"></style>
+            </div>
+            <div class="u-carousel-item u-effect-hover-zoom u-gallery-item u-carousel-item-4" data-image-width="480" data-image-height="270">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="{% static 'images/20.jpg' %}">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-4">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+              <style data-mode="XL" data-visited="true"></style>
+              <style data-mode="LG" data-visited="true"></style>
+              <style data-mode="MD" data-visited="true"></style>
+              <style data-mode="SM" data-visited="true"></style>
+              <style data-mode="XS" data-visited="true"></style>
+            </div>
+          </div>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-d2d5" role="button" data-u-slide="prev">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+            </span>
+          </a>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-d2d5" role="button" data-u-slide="next">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    
+    {% include 'footer.html' %}
+  
+</body></html>
+{% endblock %}
