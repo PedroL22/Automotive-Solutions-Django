@@ -1,3 +1,5 @@
+{% load static %}
+{% block content %}
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="pt"><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -5,14 +7,17 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <title>Schedule Appointment</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Schedule-Appointment.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery-1.9.1.min.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <link rel="stylesheet" href="{% static 'css/master.css' %}" media="screen">
+<link rel="stylesheet" href="{% static 'css/Schedule-Appointment.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{% static 'js/jquery-1.9.1.min.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/master.js' %}" defer=""></script>
     <meta name="generator" content="Nicepage 4.14.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <style>
-
+      .u-section-1 .u-image-1 {
+  background-image: url("{% static 'images/original-37.png' %}");
+  background-position: 50% 50%;
+}
     </style>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Schedule Appointment">
@@ -78,7 +83,7 @@
               <div class="u-container-layout u-valign-middle u-container-layout-1" src=""></div>
             </div>
             <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-white u-layout-cell-2" src="">
-              <div class="u-container-layout u-valign-middle-lg u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-2"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-1"><img src="/images/597177.png" alt=""></span>
+              <div class="u-container-layout u-valign-middle-lg u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-2"><span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-1"><img src="{% static 'images/597177.png' %}" alt=""></span>
                 <h2 class="u-text u-text-1"> Schedule Appointment</h2>
                 <p class="u-text u-text-2"> To schedule an appointment, please call </p>
                 <p class="u-text u-text-3">
@@ -153,3 +158,4 @@
     </section>
   
 </body></html>
+{% endblock %}

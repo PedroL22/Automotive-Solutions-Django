@@ -3,8 +3,14 @@
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  width: 1140px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 692px;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("/images/1603871867_Cover-Image.webp");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -39,12 +45,6 @@
 @media (max-width: 1199px) {
    .u-section-1 {
     min-height: 571px;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
   }
 
   .u-section-1 .u-image-1 {
@@ -105,9 +105,6 @@
   .u-section-1 .u-layout-wrap-1 {
     margin-top: 1px;
     margin-bottom: 1px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-1 .u-image-1 {
@@ -207,6 +204,11 @@
   margin: 18px 0 0;
 }
 
+.u-section-2 .u-image-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("/images/SemTtulo-1.jpg");
+  min-height: 463px;
+  background-position: 50% 50%;
+}
 
 .u-section-2 .u-container-layout-2 {
   padding: 30px 60px;
@@ -364,6 +366,12 @@
 .u-section-4 .u-layout-wrap-1 {
   width: 1140px;
   margin: 0 auto;
+}
+
+.u-section-4 .u-image-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("/images/gd7645197eeb3c7e504771ddace29c1f362f6446b5224d7766b17b2972955c0826e9dfc4de4821699fd5084a8f46d7f3585b505f76fc5f9e9b1f7b63f40d27656_1280.jpg");
+  background-position: 50% 50%;
+  min-height: 462px;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -1185,6 +1193,7 @@
 
 .u-section-8 .u-image-1 {
   min-height: 553px;
+  background-image: url("/images/original.jpg");
   background-position: 50% 50%;
 }
 
