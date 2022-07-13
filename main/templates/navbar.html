@@ -1,3 +1,4 @@
+{% load static %}
 <nav class="u-align-center u-dropdown-icon u-menu u-menu-dropdown u-offcanvas u-offcanvas-shift u-menu-1">
     <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
       <a class="u-button-style u-custom-active-color u-custom-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-text-shadow u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base u-text-white" href="#" style="">
@@ -18,7 +19,6 @@
 </li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="{% url 'about-us' %}" style="padding: 10px;">About Us</a>
 </li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="{% url 'contact-us' %}" style="padding: 10px;">Contact Us</a>
 </li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="{% url 'schedule-appointment' %}" style="padding: 10px;">Schedule Appointment</a>
-</li><li class="u-nav-item"><a class="u-black u-button-style u-hover-palette-1-base u-nav-link u-text-active-white u-text-hover-white" href="{% url 'home' %}" style="padding: 10px;">Home</a>
 </li></ul>
     </div>
     <div class="u-custom-menu u-nav-container-collapse">
@@ -44,8 +44,8 @@
       <div class="u-menu-overlay"></div>
     </div>
   </nav>
-  <a href="#" class="u-image u-logo u-image-1">
-    <img src="//ccapp.nicepage.com/b1aafe7bcbc31301c05ec52330da8f331d18e720/images/default-logo.png" class="u-logo-image u-logo-image-1">
+  <a href="{% url 'home' %}" class="u-image u-logo u-image-1">
+    <img src="{% static 'images/default-logo.png' %}" class="u-logo-image u-logo-image-1">
   </a>
   <a href="tel:(615) 782-6700" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1"> (615) 782-6700</a>
 </div></header>
