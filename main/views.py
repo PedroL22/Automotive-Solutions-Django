@@ -12,3 +12,12 @@ def about_us(request):
 
 def schedule_appointment(request):
     return render(request, 'Schedule-Appointment.html', {})
+
+def towing_service(request):
+    return render(request, 'Towing-Service.html', {})
+
+def student_special(request):
+    return render(request, 'Student-Special.html', {})
+
+def business_rates(request):
+    return render(request, 'Business-Rates.html', {})
