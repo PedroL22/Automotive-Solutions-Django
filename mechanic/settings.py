@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-il2#98sw&3s4i0)7gah0t!g(+%=@z-^tubwu=p$o39#-qos4%m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://automotivesolutions.herokuapp.com/', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['www.automotivesolutions.herokuapp.com', '127.0.0.1:8000']
 
 
 # Application definition
