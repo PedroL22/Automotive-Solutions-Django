@@ -10,7 +10,7 @@ def contact_us(request):
 def about_us(request):
     return render(request, 'About-Us.html', {})
 
-def schedule_appointment(request):
+# def schedule_appointment(request):
     return render(request, 'Schedule-Appointment.html', {})
 
 def towing_service(request):
