@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-il2#98sw&3s4i0)7gah0t!g(+%=@z-^tubwu=p$o39#-qos4%m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.automotivesolutions.herokuapp.com', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['www.automotivesolutions.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -127,6 +127,8 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static',
 ]
 
+STATIC_ROOT = "/static/"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
@@ -138,7 +140,6 @@ CLOUDINARY_STORAGE = {
     'API_SECRET': 'HQTk0kRiyHWq5KdKu5nLCDvSGtk',
 }
 
-DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 LOGGING = {
     'version': 1,
@@ -176,4 +177,5 @@ LOGGING = {
 DEBUG_PROPAGATE_EXCEPTIONS = True
 COMPRESS_ENABLED = os.environ.get('COMPRESS_ENABLED', False)
 
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 django_heroku.settings(locals())
