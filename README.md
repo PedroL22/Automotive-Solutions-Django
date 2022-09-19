@@ -1,5 +1,5 @@
 # Automotive-Solutions-Django
-Website I'm making with Django for a Nashville mechanic.
+Website I made with Django for a Nashville mechanic.
 
 https://automotivesolutions.herokuapp.com/
 
