@@ -38,7 +38,7 @@ Jinja2==3.1.2
 jmespath==1.0.0
 MarkupSafe==2.1.1
 numpy==1.22.4
-oauthlib==3.2.0
+oauthlib==3.2.2
 outcome==1.1.0
 Pillow==9.1.1
 psycopg2==2.9.3
